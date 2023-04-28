@@ -27,10 +27,10 @@ export const NavBar = () => {
         <h1 className=' w-full text-3xl font-bold text-[#00df9a] m-4'> ArstMrnto</h1>
 
         <ul className='uppercase p-4'>
-          <li className='p-4 border-b border-gray-600 ' >Proyectos</li>
-          <li className='p-4 border-b border-gray-600 '>Contacto</li>
-          <li className='p-4 border-b border-gray-600 '>Acerca</li>
-          <li className='p-4  '>mas</li>
+          <li className='p-4 border-b border-gray-600 ' >Home</li>
+          <li className='p-4 border-b border-gray-600 '>Company</li>
+          <li className='p-4 border-b border-gray-600 '>Resources</li>
+          <li className='p-4'>About</li>
         </ul>
       </div>
     </div>
