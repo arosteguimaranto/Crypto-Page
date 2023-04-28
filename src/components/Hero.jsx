@@ -4,7 +4,7 @@ export const Hero = () => {
     return (
         <div className='text-white'>
             <div className="max-w-[800px] mt-[-96px]w-full h-screen mx-auto text-center flex flex-col justify-center" >
-                <p className=" text-[#00df9a] font-bold p-2">SOME RANDOM TEXT ABOUT ME</p>
+                <p className=" text-[#00df9a] font-bold p-2">Excepteur veniam deserunt consectetur nisi dolor ex dolore culpa duis.</p>
                 <h1 className=" md:text-7xl sm:text-6xl text-4xl font-bold md:py-6"> Title </h1>
                 <div className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
                     <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">Est eu eiusmod amet sit velit duis magna.</p>
