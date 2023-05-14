@@ -1,19 +1,30 @@
 
+import {AlbumSection} from './components/AlbumSection'
 import { Analytics } from './components/Analytics'
 import { Cards } from './components/Cards'
 import { Footer } from './components/Footer'
 import { Hero } from './components/Hero'
+import { HomePage } from './components/HomePage'
 import { NavBar } from './components/NavBar'
 import { Newsletter } from './components/Newsletter'
+
 import './index.css'
+
+
+
+
 
 function App() {
   
 
   return (
-    <div>
+    <div> 
+    
       <NavBar/>
+      <HomePage/>
       <Hero/>
+      <AlbumSection/>
+    
       <Analytics/>
       <Newsletter/>
       <Cards/>
