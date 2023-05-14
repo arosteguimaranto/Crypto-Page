@@ -2,14 +2,7 @@ import React from 'react'
 
 export 
 const AlbumSection = () => {
-  const albums = [
-    { title: 'Red and Blue', year: 2006, image: '' },
-    { title: 'The Fame', year: 2008, image: '' },
-    { title: 'The Fame Monster', year: 2009, image: '' },
-    { title: 'Born This Way', year: 2011, image: '' },
-    { title: 'Artpop', year: 2011, image: '' },
-
-  ];
+  
 
   return (
     <div className="album-section">
