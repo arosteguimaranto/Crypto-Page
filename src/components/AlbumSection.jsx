@@ -5,20 +5,7 @@ const AlbumSection = () => {
   
 
   return (
-    <div className="album-section">
-    {/* <div>
-    <h2 className="text-2xl font-bold text-[#ea4171] mb-4">Álbumes de Lady Gaga</h2></div>
-      <div className="grid grid-cols-3 gap-4">
-      
-        {albums.map((album) => (
-          <div key={album.title} className="flex flex-col  text-cyan-800 items-center">
-            <img src={`images/${album.image}`} alt={album.title} className="w-40 h-40 rounded-full mb-2" />
-            <h3 className="text-lg font-medium">{album.title}</h3>
-            <p className="text-sm text-gray-500">{album.year}</p>
-          </div>
-        ))}
-      </div> */}
-
+    
       <section className="text-gray-400 bg-gray-900 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
@@ -73,7 +60,7 @@ const AlbumSection = () => {
     </div>
   </div>
 </section>
-    </div>
+    
   );
 }
 

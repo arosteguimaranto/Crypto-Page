@@ -1,5 +1,5 @@
 
-import {AlbumSection} from './components/AlbumSection'
+import { Album } from './components/Album'
 import { Analytics } from './components/Analytics'
 import { Cards } from './components/Cards'
 import { Footer } from './components/Footer'
@@ -23,7 +23,7 @@ function App() {
       <NavBar/>
       <HomePage/>
       <Hero/>
-      <AlbumSection/>
+      <Album/>
     
       <Analytics/>
       <Newsletter/>
