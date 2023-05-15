@@ -1,10 +1,10 @@
-import cat1 from '../assets/cat1.jpg'
+import  image1 from '../assets/af12c246aca39782ee0a9b0ab81a0956.jpg'
 
 export const Analytics = () => {
     return (
         <div className=" w-full bg-white py-16 px-4">
             <div className=" max-w-[1240px] mx-auto grid md:grid-cols-2">
-                <img className='w-[500px] mx-auto my-4' src={cat1} alt='/' />
+                <img className='w-[500px] mx-auto my-4' src={image1} alt='/' />
                 <div className=' flex flex-col justify-center'>
                     <p className='text-[#ea4171] font-bold'> Lorem cupidatat anim sit ipsum.</p>
                     <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'> Minim Lorem consectetur ut consequat quis ipsum pariatur fugiat ea laboris amet reprehenderit.</h1>
