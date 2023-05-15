@@ -1,68 +1,37 @@
-import React from "react";
-import Slider from "react-slick"; 
-
-import {AlbumItem} from "./AlbumItem";
-import album from "../data/album";
+import album from '../data/album.js'
 import { v4 as uuidv4 } from 'uuid';
 
-
-
 export const Album = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-   
 
-    responsive: [
-      {
-        breakpoint: 767, // breakpoint para pantallas de 640px o menos
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+  const data = album;
 
-        },
-      },
-      {
-        breakpoint: 1023, // breakpoint para pantallas de 640px o menos
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-    ],
-
-  };
 
   return (
-    <>
-
-      <div className="flex flex-col md:flex-row items-center p-4 justify-center">
-
-
-        <Slider {...settings} className="w-full border dark:border-stone-900 border-white">
-          {album.map((project) => (
-            <>
-              <div className="flex justify-center py-4 " >
-              <AlbumItem
-              key={uuidv4()}
-              imgUrl={project.imgUrl}
-              title={project.title}
-              year={project.year}
-              duration={project.link}
-              details={project.details}
-
-            />
-              </div>
-             
-            </>
-
-          ))}
-        </Slider>
+    <section>
+    <div className='flex flex-wrap -m-4 text-white'>
+    {data.map((item) => (
+      <div className='p-4 lg:w-1/2' key={uuidv4()}>
+        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={item.imgUrl} />
+          <div className="flex-grow sm:pl-8">
+            <h2 className="title-font font-medium text-lg text-white">{item.title}</h2>
+            <h3 className="text-gray-500 mb-3">{item.year}</h3>
+            <p className="mb-4">{item.details}</p>
+          </div>
+        </div>
       </div>
-    </>
+    ))}
+  </div>
+    </section>
+  
+  )
+}
 
-  );
-};
+
+
+
+
+
+
+
+

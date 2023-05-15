@@ -1,7 +1,8 @@
-export default albums = [
+export default [
     {
 
         title: 'Red and Blue',
+        link:'https://es.wikipedia.org/wiki/Red_And_Blue',
         imgUrl: '../assets/red-and-blue.jpg',
         year: '2006',
         duration: '',
@@ -10,6 +11,7 @@ export default albums = [
     {
 
         title: 'The Fame',
+        link:'https://es.wikipedia.org/wiki/The_Fame',
         imgUrl: '../assets/TheFame.jpg',
         year: '2008',
         duration: '00:50:21',
@@ -18,6 +20,7 @@ export default albums = [
     {
 
         title: 'The Fame Monster',
+        link:'https://es.wikipedia.org/wiki/The_Fame_Monster' ,
         imgUrl: '../assets/the-fame-monster.jpg',
         year: '2009',
         duration: '00:34:09',
@@ -26,6 +29,7 @@ export default albums = [
     {
 
         title: 'Born This Way',
+        link:'https://es.wikipedia.org/wiki/Born_This_Way' ,
         imgUrl: '../assets/Born_This_Way_-_Standard_Edition.jpg',
         year: '2011',
         duration: '1:01:08 (Standard edition)',
@@ -34,6 +38,7 @@ export default albums = [
     {
 
         title: 'Artpop',
+        link:'https://es.wikipedia.org/wiki/Artpop' ,
         imgUrl: '../assets/artpop.jpg',
         year: '2013',
         duration: '59:04',
@@ -42,6 +47,7 @@ export default albums = [
     {
 
         title: 'Cheek to cheek',
+        link:'https://es.wikipedia.org/wiki/The_Fame_Monster' ,
         imgUrl: '../assets/cheecktocheeck.jpg',
         year: '2014',
         duration: '34:43 (Standard)',
@@ -50,6 +56,7 @@ export default albums = [
     {
 
         title: 'Joanne',
+        link:'https://es.wikipedia.org/wiki/Joanne_(%C3%A1lbum)' ,
         imgUrl: '../assets/Joanne_Album_Cover.jpg',
         year: '2016',
         duration: '47:23 (Deluxe edition)',
@@ -59,6 +66,7 @@ export default albums = [
     {
 
         title: 'Chromatica',
+        link:'https://es.wikipedia.org/wiki/Chromatica',
         imgUrl: '../assets/Chromatica_artwork.jpg',
         year: '2020',
         duration: '42:59',
@@ -67,6 +75,7 @@ export default albums = [
     {
 
         title: 'Love for sale',
+        link:'https://es.wikipedia.org/wiki/Love_for_Sale',
         imgUrl: '../assets/Love_For_Sale_artwork.jpg',
         year: '2021',
         duration: '44:00',
